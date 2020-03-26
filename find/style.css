@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo Chettan 2|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo Chettan 2|Roboto|Jua&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto&display', sans-serif;
+    font-family: 'Baloo Chettan 2', cursive;display
+    list-style-type: none;
 }
 
 /* navigation style start here */
@@ -72,73 +73,148 @@ header {
     background-color: rgb(200, 255, 0);
     padding: 20px 0;
 }
+
 h1 {
     font-family: 'Baloo Chettan 2', cursive;
     text-align: center;
-    text-transform: capitalize;
-    background-color: rgb(99, 126, 89,0.4);
+    background-color: rgb(99, 126, 89, 0.4);
 }
+
 /* header style end here */
 /* main style start here */
-main {
-    /* background-color: rgb(190, 177, 141); */
+main {}
+
+.shamrock {
+    color: rgb(0, 255, 0);
+    padding-left: 5px;
 }
-.information h2 {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 10px 0;
-    background-color: rgba(54, 118, 190, 0.5);
-    color: rgb(23, 2, 116);
+
+.ballot {
+    color: rgb(255, 0, 0);
+    padding-left: 5px;
 }
+
+.font-f {
+    font-family: "Jua", sans-serif;
+}
+
 /* icons style */
 i {
     font-size: 30px;
     padding-right: 10px;
 }
+
 i[class="fas fa-info"] {
     color: blue;
 }
+
 i[class="fas fa-shoe-prints"] {
-    color: rgb(92, 87, 13);
+    color: rgb(0, 0, 0);
 }
+
 i[class="far fa-images"] {
-    color: rgb(121, 83, 122);
+    color: rgb(0, 0, 0);
 }
+
 i[class="fas fa-exclamation-triangle"] {
-    color: rgb(129, 31, 44);
+    color: rgb(255, 0, 0);
 }
+
 i[class="fas fa-home"] {
     color: rgb(195, 241, 189);
 }
+
 i[class="fas fa-search"] {
     color: rgb(52, 245, 229);
 }
+
 i[class="fas fa-user-plus"] {
     color: rgb(255, 166, 0);
 }
+
 i[class="fas fa-flag-checkered"] {
     color: rgb(134, 38, 106);
 }
+
+i[class="fas fa-exclamation"] {
+    color: rgb(255, 0, 0);
+}
+
 /* icons style end here */
-ul {
-
-}
-li {
-    background-color: rgb(120, 200, 231);
-    padding: 5px 30px;
-    color: white;
-    font-size: 20px;
-    text-transform: capitalize;
+/* sections style start here */
+.search-form {
+    background-color: rgb(155, 50, 32);
+    min-height: 30vh;
 }
 
+.search-form h2 {
+    color: cornsilk;
+    padding: 10px 20px;
+}
+
+/* Style the search box */
+#mySearch {
+    width: 80%;
+    margin: 0 0 10% 10%;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 11px;
+    border: 2px solid rgb(200, 255, 0);
+}
+
+/* Style the navigation menu */
+#myMenu {
+    list-style-type: none;
+    padding: 5%;
+    background-color: rgb(218, 76, 51);
+}
+
+/* Style the navigation links */
+#myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(14, 3, 73);
+    font-weight: bold;
+    display: block;
+    border-top: 2px solid rgb(200, 255, 0);
+}
+
+#myMenu li a:hover {
+    background-color: rgb(99, 117, 34);
+}
+
+/* Style the search box end */
+.transfer {
+    background-color: rgb(155, 50, 32);
+    min-height: 30vh;
+}
+
+.transfer h2 {
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+.add-customer {
+    background-color: rgb(175, 68, 68);
+    min-height: 30vh;
+}
+
+.add-customer h2 {
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+/* sections style end here */
 /* main style end here */
 /* footer style start here */
 footer {
-    background-color: rgb(192, 245, 242);
+    background-color: rgb(84, 216, 209);
     font-size: 14px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(41, 38, 38);
     color: white;
 }
+
 footer p {
     padding: 5px 20px;
 }
