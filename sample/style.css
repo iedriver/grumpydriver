@@ -11,7 +11,7 @@
 /* navigation style start here */
 .topnav {
     overflow: hidden;
-    background-color: rgb(153, 138, 95);
+    background-color: rgb(149, 161, 149);
 }
 
 .topnav a {
@@ -30,7 +30,7 @@
 }
 
 .topnav a.active {
-    background-color: rgb(65, 87, 65);
+    background-color: rgb(149, 161, 149);
     color: white;
 }
 
@@ -69,11 +69,11 @@
 
 /* navigation style end here */
 /* header style start here */
-header {
+/* header {
     background-color: rgb(200, 255, 0);
     padding: 20px 0;
  
-}
+} */
 
 h1 {
     font-family: 'Baloo Chettan 2', cursive;
@@ -83,28 +83,29 @@ h1 {
 
 /* header style end here */
 /* main style start here */
-main {
-    
-}
+main {}
+
 .shamrock {
-    color: rgb(0,255,0);
+    color: rgb(0, 0, 0);
     padding-left: 5px;
 }
+
 /* scection information style start here */
 .information {
     padding-bottom: 10px;
 }
+
 .information h2 {
     text-align: center;
     text-transform: uppercase;
     padding: 10px 0;
-    background-color: rgba(54, 118, 190, 0.5);
-    color: rgb(23, 2, 116);
+    background-color: rgba(54, 170, 190, 0.479);
+    color: rgb(0, 0, 0);
 }
 
 /* icons style */
 i {
-    font-size: 30px;
+    font-size: 25px;
     padding-right: 10px;
 }
 
@@ -125,19 +126,19 @@ i[class="fas fa-exclamation-triangle"] {
 }
 
 i[class="fas fa-home"] {
-    color: rgb(195, 241, 189);
+    color: rgb(0, 0, 0);
 }
 
 i[class="fas fa-search"] {
-    color: rgb(52, 245, 229);
+    color: rgb(0, 0, 0);
 }
 
 i[class="fas fa-user-plus"] {
-    color: rgb(255, 166, 0);
+    color: rgb(0, 0, 0);
 }
 
 i[class="fas fa-flag-checkered"] {
-    color: rgb(134, 38, 106);
+    color: rgb(0, 0, 0);
 }
 
 i[class="fas fa-exclamation"] {
@@ -145,26 +146,23 @@ i[class="fas fa-exclamation"] {
 }
 
 /* icons style end here */
-ul {
-
-}
+ul {}
 
 li {
-    color: rgb(33, 218, 16);
+    color: rgb(0, 0, 0);
     padding: 10px 30px;
-    font-size: 20px;
-    text-align: center;
-    text-transform: capitalize;
+    font-size: 15px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: rgb(103, 218, 118);
-    color: #444;
     cursor: pointer;
     padding: 10px;
     width: 100%;
     text-align: left;
+    text-transform: uppercase;
     border: none;
     outline: none;
     transition: 0.4s;
@@ -173,13 +171,13 @@ li {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .accordion:hover {
-    background-color: rgb(129, 112, 177);
+    background-color: rgb(230, 236, 235);
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
     padding: 0 18px;
-    background-color: rgb(173, 121, 125);
+    background-color: rgb(255, 255, 255);
     display: none;
     overflow: hidden;
     border-radius: 0 0 5px 5px;
@@ -188,28 +186,28 @@ li {
 .information button {
     text-align: center;
     font-weight: bold;
-    color: rgb(0, 0, 255);
-    border-radius:5px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
     background-color: rgb(255, 255, 255, 0.7);
 }
 
 .information {
-    background-image: url(images/manhattan.jpg);
-    background-repeat: no-repeat;
-    background-color: #ccc;
-    background-position: -80px 0;
-    background-size:cover;
+    /* background-image: url(images/manhattan.jpg); */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(191, 204, 197);
+    /* background-position: -80px 0;
+    background-size:cover; */
 
 }
 
 .info-first-two-p {
-    background-color: rgb(255, 255, 255, 0.4);
+    background-color: rgb(255, 255, 255);
     font-weight: bold;
     letter-spacing: 1px;
     text-align: center;
     padding: 5px 0;
     border-radius: 5px;
-    color: rgb(0,0,255);
+    color: rgb(0, 0, 0);
 }
 
 .entity {
@@ -218,62 +216,79 @@ li {
 
 /* section informations style end here */
 /* section instruction start here */
+.instructions {
+    background-color: rgb(191, 204, 197);
+    padding-bottom: 10px;
+}
+
 .instructions h2 {
     text-align: center;
     text-transform: uppercase;
     padding: 10px 0;
-    background-color: rgba(255, 255, 255);
-    color: rgb(255, 0, 0);
+    background-color: rgb(54, 170, 190, 0.479);
+    color: rgb(0, 0, 0);
 }
 
 .instructions button {
     text-align: center;
     font-weight: bold;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     border-radius: 5px;
-   background-color: rgb(255, 255, 255,0.8);
+    background-color: rgb(255, 255, 255, 0.7);
 }
 
-.instructions {
-    background-color: black;
-    padding-bottom: 10px;
-}
+
 
 /* section instructions style end here */
 /* section images style start here */
+.images {
+    background-color: rgb(191, 204, 197);
+}
 
 .images h2 {
     text-align: center;
     text-transform: uppercase;
     padding: 10px 0;
-    background-color: rgba(255, 0, 255);
-    color: rgb(255, 255, 0);
+    background-color: rgb(54, 170, 190, 0.479);
+    color: rgb(0, 0, 0);
 }
+
 .images figure {
-    background-color: rgb(255, 255, 0);
-   
+    background-color: rgb(191, 204, 197);
+
 }
+
 .images figcaption {
-    color: rgb(0, 0, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
+    text-transform: uppercase;
     padding: 5px 10px;
 }
+
 /* section images style end here */
 /* section warnings style start here */
+.warnings {
+    background-color: rgb(191, 204, 197);
+    padding-bottom: 10px;
+}
 .warnings h2 {
     text-align: center;
     text-transform: uppercase;
     padding: 10px 0;
-    background-color: rgba(0, 255, 0);
-    color: rgb(255, 0, 0);
+    background-color: rgb(54, 170, 190, 0.479);
+    color: rgb(0, 0, 0);
 }
-.warnings {
-    background-color: rgb(96, 17, 128);
-    padding-bottom: 10px;
+.warnings button {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.7);
 }
+
+
 /* footer style start here */
 footer {
-    background-color: rgb(84, 216, 209);
     font-size: 14px;
     background-color: rgb(41, 38, 38);
     color: white;

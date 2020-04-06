@@ -8,9 +8,13 @@
 }
 
 /* navigation style start here */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .topnav {
     overflow: hidden;
-    background-color: rgb(153, 138, 95);
+    background-color: rgb(0, 0, 0);
 }
 
 .topnav a {
@@ -18,26 +22,26 @@
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 14px 20px;
+    padding: 10px 20px;
     text-decoration: none;
     font-size: 22px;
 }
 
 .topnav a:hover {
-    background-color: rgb(191, 204, 197);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .topnav a.active {
-    background-color: rgb(65, 87, 65);
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .topnav .icon {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -48,7 +52,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
     .topnav.responsive {
         position: relative;
     }
@@ -69,7 +73,7 @@
 /* navigation style end here */
 /* header style start here */
 header {
-    background-color: rgb(200, 255, 0);
+    background-color: rgb(224, 224, 224);
     padding: 20px 0;
 }
 h1 {
@@ -82,6 +86,12 @@ h1 {
 /* main style start here */
 main {
     /* background-color: rgb(190, 177, 141); */
+    min-height: 80vh;
+}
+/* style for all p in main section */
+ main p {
+    padding: 10px;
+    border-bottom: 2px solid rgb(223, 220, 236);
 }
 .information h2 {
     text-align: center;
@@ -92,7 +102,7 @@ main {
 }
 /* icons style */
 i {
-    font-size: 30px;
+    font-size: 20px;
     padding-right: 10px;
 }
 i[class="fas fa-info"] {
@@ -108,16 +118,16 @@ i[class="fas fa-exclamation-triangle"] {
     color: rgb(129, 31, 44);
 }
 i[class="fas fa-home"] {
-    color: rgb(195, 241, 189);
+    color: rgb(255, 255, 255);
 }
 i[class="fas fa-search"] {
-    color: rgb(52, 245, 229);
+    color: rgb(255, 255, 255);
 }
 i[class="fas fa-user-plus"] {
-    color: rgb(255, 166, 0);
+    color: rgb(255, 255, 255);
 }
 i[class="fas fa-flag-checkered"] {
-    color: rgb(134, 38, 106);
+    color: rgb(255, 255, 255);
 }
 /* icons style end here */
 ul {
