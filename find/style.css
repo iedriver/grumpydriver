@@ -71,7 +71,13 @@
 /* header style start here */
 
 header {
-    background-color: rgb(191, 204, 197);
+    background-color: rgb(224, 224, 224);
+}
+h1 {
+    font-family: 'Baloo Chettan 2', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(99, 126, 89,0.4);
 }
 header h2 {
     text-align: center;
