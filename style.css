@@ -2,12 +2,24 @@
 * {
   font-family: Sora, 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
+
 progress {
   visibility: hidden;
 }
 label {
   font-size: 1.3em;
 }
+hr {
+  height: 1px;
+  background-color: rgb(173, 23, 23);
+}
+footer {
+  background-color: black;
+  padding: 0.7em;
+  color: aliceblue;
+  margin-top: 2em;
+}
+
 input[type="checkbox"]:checked + label  {
   color: red;
   font-weight: bold;
