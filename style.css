@@ -8,10 +8,11 @@ progress {
 }
 label {
   font-size: 1.3em;
+  color: rgb(255, 0, 0);
 }
 hr {
   height: 1px;
-  background-color: rgb(173, 23, 23);
+  background-color: rgb(224, 16, 120);
 }
 footer {
   background-color: black;
@@ -21,9 +22,9 @@ footer {
 }
 
 input[type="checkbox"]:checked + label  {
-  color: red;
-  font-weight: bold;
+  color: rgb(112, 170, 4);
   transition: color 0.2s;
+  font-weight: bold;
    background-color: rgb(243, 230, 230);
 }
 input[type="checkbox"]:checked ~ progress  {
@@ -76,9 +77,11 @@ input[type="checkbox"] {
   outline-color: chartreuse;
   outline-style:solid;
   outline-width: 4px; */
+  outline: max(2px, 0.15em) solid rgb(255, 0, 0);
+  outline-offset: max(1px, 0.2em);
 }
 
 input[type="checkbox"]:checked {
-  outline: max(2px, 0.15em) solid red;
+  outline: max(2px, 0.15em) solid rgb(72, 255, 0);
   outline-offset: max(1px, 0.2em);
 }
